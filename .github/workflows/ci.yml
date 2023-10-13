@@ -33,5 +33,6 @@ jobs:
       - name: Deploy to Github
         uses: JamesIves/github-pages-deploy-action@4.0.0
         with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN_KEY }}
           branch: build # 打包的内容放到build分支下
-          folder: build # 你打包后存放的文件
+          folder: ./dist # 你打包后存放的文件
