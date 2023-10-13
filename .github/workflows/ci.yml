@@ -35,4 +35,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: build # 打包的内容放到build分支下
-          folder: "sliver-gui/build" # 你打包后存放的文件
+          folder: ./build # 你打包后存放的文件
