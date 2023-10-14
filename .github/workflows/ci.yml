@@ -6,7 +6,7 @@ on:
   push:
     branches:
       - master
-
+ 
 # 工作流
 jobs:
   build-and-deploy:
